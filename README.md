@@ -6,6 +6,8 @@
 
 👉 **[Voir le site en ligne](https://leaspadea.github.io/nina-carducci/)**
 
+📄 **[Rapport d'optimisation (PDF)](https://leaspadea.github.io/nina-carducci/rapport/rapport-optimisation.pdf)**
+
 ## 🎯 Contexte du projet
 
 Nina Carducci, photographe à Bordeaux, dispose d'un site portfolio mono-page qui se charge lentement et n'est pas optimisé pour les moteurs de recherche. Elle souhaite améliorer sa visibilité en ligne sans changer l'apparence de son site.
