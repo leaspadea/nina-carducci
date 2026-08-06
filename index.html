@@ -19,6 +19,30 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<script type="application/ld+json">
+	{
+  	"@context": "https://schema.org",
+  	"@type": "LocalBusiness",
+  	"name": "Nina Carducci",
+  	"description": "Photographe portraits et événementiel à Bordeaux",
+  	"telephone": "+33 5 56 67 78 89",
+ 	"address": {
+    	"@type": "PostalAddress",
+    	"streetAddress": "68 avenue Alsace-Lorraine",
+    	"postalCode": "33200",
+    	"addressLocality": "Bordeaux",
+    	"addressCountry": "FR"
+ 	},
+  	"openingHoursSpecification": {
+    	"@type": "OpeningHoursSpecification",
+    	"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    	"opens": "10:00",
+    	"closes": "19:00"
+  	},
+  	"sameAs": "https://www.instagram.com/ninacarducci.photo/"
+	"priceRange": "50€ - 400€",
+	}
+</script>
 
 </head>
 
@@ -38,7 +62,7 @@
 		</nav>
 	</header>
 	<main>
-		<section id="header">
+		<div id="header">
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -59,8 +83,9 @@
 							width="1600" height="740" loading="lazy" alt="Public d'un concert">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100"
-							width="1600" height="740" loading="lazy" alt="Mariés qui s'embrassent">
+						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+							class="d-block w-100" width="1600" height="740" loading="lazy"
+							alt="Mariés qui s'embrassent">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -74,10 +99,11 @@
 					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-		</section>
+		</div>
 		<section id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" width="700" height="698" loading="lazy" alt="Portrait de Nina Carducci">
+				<img src="./assets/images/nina.webp" width="700" height="698" loading="lazy"
+					alt="Portrait de Nina Carducci">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
@@ -97,32 +123,32 @@
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item"
-						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
-						width="800" height="1067" loading="lazy" alt="Scène de concert" />
+						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" width="800"
+						height="1067" loading="lazy" alt="Scène de concert" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
-						width="800" height="533" loading="lazy" alt="Homme d'affaires" />
+						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" width="800"
+						height="1200" loading="lazy" alt="Homme d'affaires" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
-						width="800" height="1200" loading="lazy" alt="Employée souriante" />
+						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" width="800"
+						height="541" loading="lazy" alt="Employée souriante" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
-						width="800" height="541" loading="lazy" alt="Mains des mariés" />
+						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" width="800"
+						height="640" loading="lazy" alt="Mains des mariés" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
-						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
-						width="800" height="490" loading="lazy" alt="Homme ébloui par le soleil" />
+						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" width="800"
+						height="1199" loading="lazy" alt="Homme ébloui par le soleil" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
-						width="800" height="640" loading="lazy" alt="Mariés riant ensemble" />
+						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" width="800"
+						height="1200" loading="lazy" alt="Mariés riant ensemble" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-						width="800" height="1200" loading="lazy"alt="Femme cheveux au vent" />
+						width="800" height="1202" loading="lazy" alt="Femme cheveux au vent" />
 					<img data-gallery-tag="Concert" class="gallery-item"
-						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
-						width="800" height="1199" loading="lazy" alt="Chanteur sur scène" />
+						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" width="800"
+						height="533" loading="lazy" alt="Chanteur sur scène" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-						width="800" height="1202" loading="lazy" alt="Employée derrière son ordinateur" />
+						width="800" height="490" loading="lazy" alt="Employée derrière son ordinateur" />
 				</div>
 			</div>
 			<div class="quote">
@@ -190,7 +216,7 @@
 				<div class="form-container">
 					<h2>Une question ? Une demande de devis ?</h2>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-					<form action="" method="post">
+					<form method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
 						<label for="email">Email</label>
