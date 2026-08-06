@@ -4,7 +4,7 @@
 
 ## 🚀 Démo en ligne
 
-> ⚠️ Lien de démonstration (GitHub Pages) et captures d'écran avant/après à venir.
+👉 **[Voir le site en ligne](https://leaspadea.github.io/nina-carducci/)**
 
 ## 🎯 Contexte du projet
 
@@ -24,13 +24,20 @@ Nina Carducci, photographe à Bordeaux, dispose d'un site portfolio mono-page qu
 
 ## ⚡ Optimisations réalisées
 
-> 🚧 Projet en cours — cette section est complétée au fur et à mesure.
+- ✅ **Performances** : compression et conversion des images (WebP), attributs `width`/`height`, `loading="lazy"`, `defer` sur les scripts
+- ✅ **SEO technique** : `title`, `meta description`, attribut `lang`, balisage HTML5 sémantique, attributs `alt` descriptifs
+- ✅ **Référencement local** : données structurées Schema.org (LocalBusiness)
+- ✅ **Réseaux sociaux** : balises Open Graph et Twitter Cards
+- ✅ **Accessibilité** : liaison des `<label>` aux champs, hiérarchie des titres, contrastes, navigation clavier
 
-- ⬜ **Performances** : compression et conversion des images (WebP), attributs `width`/`height`, `loading="lazy"`, `defer` sur les scripts
-- ⬜ **SEO technique** : `title`, `meta description`, attribut `lang`, balisage HTML5 sémantique, attributs `alt` descriptifs
-- ⬜ **Référencement local** : données structurées Schema.org (LocalBusiness)
-- ⬜ **Réseaux sociaux** : balises Open Graph et Twitter Cards
-- ⬜ **Accessibilité** : liaison des `<label>` aux champs, hiérarchie des titres, contrastes, navigation clavier
+## 📊 Résultats (Lighthouse, Desktop)
+
+| Axe | Avant | Après |
+|---|---|---|
+| Performances | 74 | 98 |
+| Accessibilité | 70 | 100 |
+| SEO | 73 | 100 |
+| Poids des images | 29,4 Mo | 0,7 Mo (−98 %) |
 
 ## 📐 Structure du projet
 
