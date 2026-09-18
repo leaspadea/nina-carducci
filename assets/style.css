@@ -110,6 +110,11 @@ img {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.tags-bar .nav-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 .nav-pills .nav-link {
 	color: #000
 }
