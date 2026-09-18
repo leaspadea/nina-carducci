@@ -195,6 +195,10 @@ img {
 	z-index: 1;
 }
 
+.service__price p {
+  font-size: 1.5rem;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
